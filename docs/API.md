@@ -35,7 +35,7 @@ The process does not accept normal traffic until the model and index initialize.
     "start": 160,
     "end": 282,
     "score": 0.6539,
-    "highlights": [[29, 66]],
+    "highlights": [[24, 68]],
     "passages": []
   }],
   "conflicts": []
