@@ -2,6 +2,8 @@
 
 **Ask a question. Find the notice. Verify the evidence.**
 
+Source: [anil-yadav-web/AIMedha](https://github.com/anil-yadav-web/AIMedha) · [Automated checks](https://github.com/anil-yadav-web/AIMedha/actions/workflows/ci.yml)
+
 A focused search application for ten campus notices. Students ask in everyday language and receive exact supporting passages with the notice title, publication date, source ID and a full-text viewer. Revised instructions show both sources. No generated answers, chatbot, web crawling or live internet search.
 
 The included notices are **synthetic Indian campus notices**, dated September 2026. They are not official institutional guidance. See [the requirement analysis](docs/REQUIREMENTS.md) and [verification report](docs/VERIFICATION.md).
