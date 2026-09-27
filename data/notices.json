@@ -1,0 +1,42 @@
+[
+  {
+    "id": "notice_01", "title": "AI Tools Workshop for Students", "publication_date": "2026-09-01", "category": "Workshop", "source_filename": "Notice_01.txt", "topic": "ai-workshop",
+    "content": "The Centre for Student Learning will conduct a hands-on AI tools workshop on 22 September 2026, from 10:00 AM to 4:00 PM, in Computer Lab 2, Academic Block B.\n\nParticipants must bring their laptop, college ID card and a notebook. Please install a modern web browser before arriving.\n\nWorkshop registration closes on 15 September 2026. Register using the form available at the student activity office.\n\nThe workshop is open to undergraduate students from all departments. No prior programming experience is necessary."
+  },
+  {
+    "id": "notice_02", "title": "Semester Registration: Required Documents", "publication_date": "2026-09-03", "category": "Academic", "source_filename": "Notice_02.txt", "topic": "semester-registration",
+    "content": "Semester registration for returning students will be held at the Academic Office counter between 9:30 AM and 3:30 PM on working days.\n\nDocuments required for semester registration are a college ID card, the previous semester marksheet and the fee payment receipt. Submit one photocopy of each document and carry the originals for verification.\n\nComplete semester registration by 25 September 2026. Students with pending fee payments should contact the accounts section before submitting their forms."
+  },
+  {
+    "id": "notice_03", "title": "Merit-cum-Means Scholarship Applications", "publication_date": "2026-09-04", "category": "Scholarship", "source_filename": "Notice_03.txt", "topic": "scholarship",
+    "content": "Applications are invited for the 2026 merit-cum-means scholarship. Students with a CGPA of at least 7.5 and annual family income below Rs 4,50,000 are eligible.\n\nTo apply for the scholarship, collect the application form from the Student Welfare Office and submit it with an income certificate, latest marksheet and a copy of your bank passbook.\n\nSubmit the completed scholarship application at the Student Welfare Office, Room 104, by 28 September 2026. Incomplete applications will be returned for correction."
+  },
+  {
+    "id": "notice_04", "title": "Rangmanch: Campus Cultural Evening", "publication_date": "2026-09-05", "category": "Culture", "source_filename": "Notice_04.txt", "topic": "cultural-evening",
+    "content": "Rangmanch, the annual campus cultural evening, will take place on 30 September 2026 at 5:00 PM in the main auditorium.\n\nStudents interested in music, dance or theatre may register their group with the cultural secretary by 18 September 2026. Each performance must be no longer than eight minutes.\n\nPerformers should report backstage by 4:00 PM with their college ID cards. Entry for the audience is free and seating begins at 4:30 PM."
+  },
+  {
+    "id": "notice_05", "title": "Internship Orientation and Placement Briefing", "publication_date": "2026-09-06", "category": "Careers", "source_filename": "Notice_05.txt", "topic": "internship-orientation",
+    "content": "The Training and Placement Cell will hold an internship orientation on 19 September 2026 at 2:00 PM in Seminar Hall A.\n\nThird-year and final-year undergraduate students from all engineering branches can attend the internship orientation. Attendance is optional for postgraduate students.\n\nParticipants should carry an updated printed resume and their college identity card. The session will cover application timelines, interview preparation and internship reporting procedures."
+  },
+  {
+    "id": "notice_06", "title": "Central Library Membership", "publication_date": "2026-09-07", "category": "Library", "source_filename": "Notice_06.txt", "topic": "library-membership",
+    "content": "New students may activate their central library membership at the circulation desk between 10:00 AM and 5:00 PM on weekdays.\n\nFor library membership, provide a college ID card, one passport-size photograph and the admission confirmation slip. Complete the membership form at the circulation desk.\n\nMembers may borrow up to three books for fourteen days. Reference books and journals must remain inside the library."
+  },
+  {
+    "id": "notice_07", "title": "Mid-Semester Examination Instructions", "publication_date": "2026-09-08", "category": "Examinations", "source_filename": "Notice_07.txt", "topic": "mid-semester-examinations",
+    "content": "Mid-semester examinations begin on 23 September 2026. The subject-wise timetable is displayed on the Academic Office noticeboard.\n\nCandidates must report to their assigned examination room at least 30 minutes before the paper starts. Late entry will not be permitted after the first 15 minutes.\n\nCarry your examination hall ticket and college ID card. Mobile phones, smart watches and written notes are not allowed in the examination room. A non-programmable calculator is permitted only where specified on the question paper."
+  },
+  {
+    "id": "notice_08", "title": "Inter-Department Sports Meet", "publication_date": "2026-09-09", "category": "Sports", "source_filename": "Notice_08.txt", "topic": "sports-meet",
+    "content": "The inter-department sports meet will be held on 27 September 2026 from 7:00 AM at the campus sports ground. Events include athletics, badminton and volleyball.\n\nTeam captains must submit their participant lists to the Sports Office by 21 September 2026. All currently enrolled students are eligible to participate.\n\nAthletes should wear sports shoes and carry a water bottle and college ID card. Report to the registration desk at the sports ground by 6:30 AM."
+  },
+  {
+    "id": "notice_09", "title": "Hostel Allotment: Document Verification", "publication_date": "2026-09-10", "category": "Hostel", "source_filename": "Notice_09.txt", "topic": "hostel-allotment",
+    "content": "Students allotted campus hostel accommodation must complete document verification before collecting their room keys.\n\nFor hostel registration, carry your Aadhaar card or another government photo ID, college ID, hostel fee receipt and two passport-size photographs.\n\nSubmit hostel documents to the Hostel Administration Office on the ground floor of Hostel Block C between 10:00 AM and 4:00 PM, by 24 September 2026. A parent or guardian contact form must accompany the documents."
+  },
+  {
+    "id": "notice_10", "title": "AI Workshop: Registration Deadline Extended", "publication_date": "2026-09-12", "category": "Workshop", "source_filename": "Notice_10.txt", "topic": "ai-workshop", "revises": ["notice_01"],
+    "content": "This notice updates the AI Tools Workshop for Students notification published on 1 September 2026 (Notice_01).\n\nDue to increased participation, the AI workshop registration deadline has been extended to 20 September 2026. This replaces the earlier closing date of 15 September 2026.\n\nThe workshop schedule remains 22 September 2026, 10:00 AM to 4:00 PM, in Computer Lab 2, Academic Block B. All other instructions in Notice_01 remain unchanged."
+  }
+]

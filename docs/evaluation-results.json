@@ -1,0 +1,377 @@
+{
+  "metrics": {
+    "queries": 24,
+    "passed": 24,
+    "hit_at_1": 1.0,
+    "hit_at_3": 1.0,
+    "recall_at_5": 1.0,
+    "unsupported_rejection_rate": 1.0,
+    "revision_checks_passed": true
+  },
+  "cases": [
+    {
+      "query": "What should I bring to the workshop?",
+      "expected": [
+        "notice_01"
+      ],
+      "actual": [
+        "notice_01"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "recall_at_5": 1.0,
+      "expected_chunks_found": true,
+      "unsupported_rejected": null,
+      "revision_ok": true,
+      "passed": true
+    },
+    {
+      "query": "What do I need to carry for the AI session?",
+      "expected": [
+        "notice_01"
+      ],
+      "actual": [
+        "notice_01"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "recall_at_5": 1.0,
+      "expected_chunks_found": true,
+      "unsupported_rejected": null,
+      "revision_ok": true,
+      "passed": true
+    },
+    {
+      "query": "What documents are needed for semester registration?",
+      "expected": [
+        "notice_02"
+      ],
+      "actual": [
+        "notice_02"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "recall_at_5": 1.0,
+      "expected_chunks_found": true,
+      "unsupported_rejected": null,
+      "revision_ok": true,
+      "passed": true
+    },
+    {
+      "query": "When is the registration deadline?",
+      "expected": [
+        "notice_01",
+        "notice_10"
+      ],
+      "actual": [
+        "notice_10",
+        "notice_02",
+        "notice_01"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "recall_at_5": 1.0,
+      "expected_chunks_found": true,
+      "unsupported_rejected": null,
+      "revision_ok": true,
+      "passed": true
+    },
+    {
+      "query": "When is registration due?",
+      "expected": [
+        "notice_01",
+        "notice_10"
+      ],
+      "actual": [
+        "notice_10",
+        "notice_02",
+        "notice_01"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "recall_at_5": 1.0,
+      "expected_chunks_found": true,
+      "unsupported_rejected": null,
+      "revision_ok": true,
+      "passed": true
+    },
+    {
+      "query": "Where will the workshop happen?",
+      "expected": [
+        "notice_01",
+        "notice_10"
+      ],
+      "actual": [
+        "notice_01",
+        "notice_10"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "recall_at_5": 1.0,
+      "expected_chunks_found": true,
+      "unsupported_rejected": null,
+      "revision_ok": true,
+      "passed": true
+    },
+    {
+      "query": "Who can attend the internship orientation?",
+      "expected": [
+        "notice_05"
+      ],
+      "actual": [
+        "notice_05"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "recall_at_5": 1.0,
+      "expected_chunks_found": true,
+      "unsupported_rejected": null,
+      "revision_ok": true,
+      "passed": true
+    },
+    {
+      "query": "How do I apply for the scholarship?",
+      "expected": [
+        "notice_03"
+      ],
+      "actual": [
+        "notice_03"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "recall_at_5": 1.0,
+      "expected_chunks_found": true,
+      "unsupported_rejected": null,
+      "revision_ok": true,
+      "passed": true
+    },
+    {
+      "query": "What do I need for library membership?",
+      "expected": [
+        "notice_06"
+      ],
+      "actual": [
+        "notice_06"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "recall_at_5": 1.0,
+      "expected_chunks_found": true,
+      "unsupported_rejected": null,
+      "revision_ok": true,
+      "passed": true
+    },
+    {
+      "query": "When is the sports event?",
+      "expected": [
+        "notice_08"
+      ],
+      "actual": [
+        "notice_08"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "recall_at_5": 1.0,
+      "expected_chunks_found": true,
+      "unsupported_rejected": null,
+      "revision_ok": true,
+      "passed": true
+    },
+    {
+      "query": "Where should hostel documents be submitted?",
+      "expected": [
+        "notice_09"
+      ],
+      "actual": [
+        "notice_09"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "recall_at_5": 1.0,
+      "expected_chunks_found": true,
+      "unsupported_rejected": null,
+      "revision_ok": true,
+      "passed": true
+    },
+    {
+      "query": "What are the examination reporting instructions?",
+      "expected": [
+        "notice_07"
+      ],
+      "actual": [
+        "notice_07"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "recall_at_5": 1.0,
+      "expected_chunks_found": true,
+      "unsupported_rejected": null,
+      "revision_ok": true,
+      "passed": true
+    },
+    {
+      "query": "What papers do I need to get a hostel room?",
+      "expected": [
+        "notice_09"
+      ],
+      "actual": [
+        "notice_09"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "recall_at_5": 1.0,
+      "expected_chunks_found": true,
+      "unsupported_rejected": null,
+      "revision_ok": true,
+      "passed": true
+    },
+    {
+      "query": "Am I eligible for the merit scholarship?",
+      "expected": [
+        "notice_03"
+      ],
+      "actual": [
+        "notice_03"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "recall_at_5": 1.0,
+      "expected_chunks_found": true,
+      "unsupported_rejected": null,
+      "revision_ok": true,
+      "passed": true
+    },
+    {
+      "query": "Where is the cultural evening?",
+      "expected": [
+        "notice_04"
+      ],
+      "actual": [
+        "notice_04"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "recall_at_5": 1.0,
+      "expected_chunks_found": true,
+      "unsupported_rejected": null,
+      "revision_ok": true,
+      "passed": true
+    },
+    {
+      "query": "Can I take my phone into the exam?",
+      "expected": [
+        "notice_07"
+      ],
+      "actual": [
+        "notice_07"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "recall_at_5": 1.0,
+      "expected_chunks_found": true,
+      "unsupported_rejected": null,
+      "revision_ok": true,
+      "passed": true
+    },
+    {
+      "query": "How many books may I borrow?",
+      "expected": [
+        "notice_06"
+      ],
+      "actual": [
+        "notice_06"
+      ],
+      "hit_at_1": true,
+      "hit_at_3": true,
+      "recall_at_5": 1.0,
+      "expected_chunks_found": true,
+      "unsupported_rejected": null,
+      "revision_ok": true,
+      "passed": true
+    },
+    {
+      "query": "What is the cafeteria menu?",
+      "expected": [],
+      "actual": [],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "recall_at_5": null,
+      "expected_chunks_found": true,
+      "unsupported_rejected": true,
+      "revision_ok": true,
+      "passed": true
+    },
+    {
+      "query": "What is today's weather?",
+      "expected": [],
+      "actual": [],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "recall_at_5": null,
+      "expected_chunks_found": true,
+      "unsupported_rejected": true,
+      "revision_ok": true,
+      "passed": true
+    },
+    {
+      "query": "Who won the cricket match?",
+      "expected": [],
+      "actual": [],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "recall_at_5": null,
+      "expected_chunks_found": true,
+      "unsupported_rejected": true,
+      "revision_ok": true,
+      "passed": true
+    },
+    {
+      "query": "How do I apply for a passport?",
+      "expected": [],
+      "actual": [],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "recall_at_5": null,
+      "expected_chunks_found": true,
+      "unsupported_rejected": true,
+      "revision_ok": true,
+      "passed": true
+    },
+    {
+      "query": "What is the hostel Wi-Fi password?",
+      "expected": [],
+      "actual": [],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "recall_at_5": null,
+      "expected_chunks_found": true,
+      "unsupported_rejected": true,
+      "revision_ok": true,
+      "passed": true
+    },
+    {
+      "query": "How much is the workshop registration fee?",
+      "expected": [],
+      "actual": [],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "recall_at_5": null,
+      "expected_chunks_found": true,
+      "unsupported_rejected": true,
+      "revision_ok": true,
+      "passed": true
+    },
+    {
+      "query": "What time does the campus bus leave?",
+      "expected": [],
+      "actual": [],
+      "hit_at_1": false,
+      "hit_at_3": false,
+      "recall_at_5": null,
+      "expected_chunks_found": true,
+      "unsupported_rejected": true,
+      "revision_ok": true,
+      "passed": true
+    }
+  ]
+}
