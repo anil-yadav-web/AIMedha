@@ -2,7 +2,7 @@
 
 **Ask a question. Find the notice. Verify the evidence.**
 
-Source: [anil-yadav-web/AIMedha](https://github.com/anil-yadav-web/AIMedha) · [Automated checks](https://github.com/anil-yadav-web/AIMedha/actions/workflows/ci.yml)
+[Live application](https://find-that-notice.onrender.com) · [Source: anil-yadav-web/AIMedha](https://github.com/anil-yadav-web/AIMedha) · [Automated checks](https://github.com/anil-yadav-web/AIMedha/actions/workflows/ci.yml)
 
 A focused search application for ten campus notices. Students ask in everyday language and receive exact supporting passages with the notice title, publication date, source ID and a full-text viewer. Revised instructions show both sources. No generated answers, chatbot, web crawling or live internet search.
 
@@ -199,7 +199,7 @@ This free demo can sleep after inactivity, so the first request may be slow. Imp
 
 For manual Render setup choose **Python**, the **Free** plan, **Singapore**, repository root, the build/start commands in `render.yaml`, and the documented environment variables. Do not attach a paid disk or use a Docker runtime for this demo. Keep a single worker; multiple workers would need coordinated index reloads after imports.
 
-Public deployment requires access to the user's Git provider repository and Render account. **A live URL has not yet been provisioned or verified.** The local app and deployment configuration do not substitute for that acceptance check.
+**Live deployment: https://find-that-notice.onrender.com**. Render reports the native Python service live on the free plan in Singapore. Public HTTPS smoke checks passed on 27 September 2026, including semantic search, revision evidence, all ten notices, unsupported questions and API validation. See [the deployment report](docs/deployment-results.json). The service was created through the Render CLI with the settings in `render.yaml`; it is not a Blueprint-managed instance. Use the Render dashboard/CLI to apply future infrastructure-setting changes.
 
 Official references: [Render native runtimes](https://render.com/docs/native-runtimes), [Blueprint specification](https://render.com/docs/blueprint-spec), [Python versions](https://render.com/docs/python-version), and [Node versions](https://render.com/docs/node-version).
 

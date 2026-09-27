@@ -35,7 +35,7 @@ Exactly two student-facing capabilities: ask a natural-language question, and in
 | Persistent, idempotent initialization | Cache test and application restart test |
 | Build and local service | TypeScript/Vite production build and HTTP smoke checks |
 | Mobile and keyboard support | Responsive CSS and keyboard interaction test; real viewport visual inspection still required |
-| Public deployment and HTTPS | Native Render configuration supplied; requires connected account/repository and live smoke check |
+| Public deployment and HTTPS | Free native Render service is live at https://find-that-notice.onrender.com; public HTTPS smoke checks passed |
 | Docker | Intentionally omitted per user's explicit instruction |
 
 Test measurements and verification limits are recorded in `VERIFICATION.md`. A prepared deployment configuration is not proof of a successful public deployment.

@@ -17,6 +17,8 @@ Recorded: **27 September 2026**. Environment: Windows, CPython 3.12.13, Node.js 
 | Production TypeScript/Vite build | Passed |
 | npm dependency audit | **0 known vulnerabilities** in the final locked dependencies |
 | Live local HTTP smoke test | Passed |
+| Public Render deployment | **Live**, free native Python service in Singapore |
+| Public HTTPS smoke test | **Passed** at https://find-that-notice.onrender.com |
 
 Detailed query-level measurements: [evaluation-results.json](evaluation-results.json).
 
@@ -40,21 +42,23 @@ Explicit revision links or named source references plus revision wording identif
 
 - The 24-query dataset was used to calibrate relevance rejection. Its perfect score is **not a held-out generalization result**. Arbitrary queries and other collections can still produce incomplete evidence or false negatives.
 - Actual browser layout, mobile viewport behavior, native dialog keyboard behavior and screen-reader operation have **not** been visually verified. The session's browser integration returned no available browser. Responsive CSS and jsdom tests are not substitutes for those checks.
-- [GitHub Actions completed successfully on Ubuntu](https://github.com/anil-yadav-web/AIMedha/actions/runs/36313449075) for commit `42b84b37819a1ece3ab4ce0eb1425a5d0fc81c37`: dependency installation, frontend tests, production build, backend tests and retrieval evaluation all passed.
-- The source is published to [anil-yadav-web/AIMedha](https://github.com/anil-yadav-web/AIMedha), and the Render CLI is authenticated to the user's replacement account. **The public deployment is being prepared; HTTPS verification is pending.**
+- [GitHub Actions completed successfully on Ubuntu](https://github.com/anil-yadav-web/AIMedha/actions/runs/36313851732) for the deployed commit `88ee1b6efa1f3ffa100943cbdd1e9773e71ac430`: dependency installation, frontend tests, production build, backend tests and retrieval evaluation all passed.
+- The source is published to [anil-yadav-web/AIMedha](https://github.com/anil-yadav-web/AIMedha). **The public native Render service is live and HTTPS smoke checks passed.** The service was created through the CLI using the configuration in `render.yaml`; future infrastructure changes must be applied through the dashboard/CLI because the service is not managed by a Blueprint instance.
 - The final free configuration **passes Render blueprint validation** in the replacement workspace.
 - The Render blueprint selects a **free native Python service in Singapore with no paid disk**. The service can sleep when idle; imported notices and runtime caches may reset on redeployment or instance replacement. The ten original notices are automatically restored.
 - Docker checks do not apply: Docker was explicitly excluded by the user.
 
 Local URL: **http://127.0.0.1:8000** (available while the local Python process is running).
 
-Public deployment URL: **pending**.
+Public deployment URL: **https://find-that-notice.onrender.com**.
 
-## Final manual demo after deployment
+Render service: `srv-dasfa80jo6nc73bhqgj0`. Successful deployment: `dep-dasfa8ojo6nc73bhqkc0`, completed at 10:53 UTC on 27 September 2026. [Deployment check results](deployment-results.json).
+
+## Remaining manual browser checks
 
 1. Load the public HTTPS URL on desktop and a narrow mobile viewport.
 2. Search `What should I bring to the workshop?`; check title, date, exact materials passage and highlighting.
 3. Open **View full notice**; close with the button and Escape and check keyboard focus.
 4. Search `When is the registration deadline?`; verify the 15 September original and 20 September explicit update both remain visible.
 5. Search `What is today's weather?`; verify the no-matching-information state.
-6. Run `python -m scripts.smoke https://YOUR-SERVICE.onrender.com` and record the URL and result here.
+6. To repeat the already-passed HTTP checks, run `python -m scripts.smoke https://find-that-notice.onrender.com`.

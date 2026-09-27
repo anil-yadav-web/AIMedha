@@ -1,0 +1,26 @@
+{
+  "url": "https://find-that-notice.onrender.com",
+  "platform": "Render",
+  "runtime": "python",
+  "plan": "free",
+  "region": "singapore",
+  "service_id": "srv-dasfa80jo6nc73bhqgj0",
+  "deploy_id": "dep-dasfa8ojo6nc73bhqkc0",
+  "deployed_commit": "88ee1b6efa1f3ffa100943cbdd1e9773e71ac430",
+  "verified_date": "2026-09-27",
+  "status": "live",
+  "https_verified": true,
+  "notice_count": 10,
+  "smoke_checks": "passed: homepage, health, collection, semantic search, source passage, revision pair, unsupported question, validation, 404, OpenAPI",
+  "assets": [
+    {
+      "path": "/assets/index-DvgyzY30.js",
+      "status": 200
+    },
+    {
+      "path": "/assets/index-C9IdPmh-.css",
+      "status": 200
+    }
+  ],
+  "visual_browser_check": "not available in this session"
+}
