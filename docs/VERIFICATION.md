@@ -41,9 +41,9 @@ Explicit revision links or named source references plus revision wording identif
 - The 24-query dataset was used to calibrate relevance rejection. Its perfect score is **not a held-out generalization result**. Arbitrary queries and other collections can still produce incomplete evidence or false negatives.
 - Actual browser layout, mobile viewport behavior, native dialog keyboard behavior and screen-reader operation have **not** been visually verified. The session's browser integration returned no available browser. Responsive CSS and jsdom tests are not substitutes for those checks.
 - [GitHub Actions completed successfully on Ubuntu](https://github.com/anil-yadav-web/AIMedha/actions/runs/36313449075) for commit `42b84b37819a1ece3ab4ce0eb1425a5d0fc81c37`: dependency installation, frontend tests, production build, backend tests and retrieval evaluation all passed.
-- The source is published to [anil-yadav-web/AIMedha](https://github.com/anil-yadav-web/AIMedha), and the Render CLI is authenticated. The hosting-plan choice is still required. **No cloud resource or public HTTPS URL has been provisioned or verified.**
-- Render validation reports `need_payment_info` for the persistent paid configuration. A free preview with the disk removed and the default local index directory **passes Render blueprint validation**. The preview has not been deployed; a plan choice is required before resource creation.
-- The Render blueprint selects a **paid Starter service and 1 GB persistent disk**. Review the displayed charges before applying it.
+- The source is published to [anil-yadav-web/AIMedha](https://github.com/anil-yadav-web/AIMedha), and the Render CLI is authenticated to the user's replacement account. **The public deployment is being prepared; HTTPS verification is pending.**
+- The final free configuration **passes Render blueprint validation** in the replacement workspace.
+- The Render blueprint selects a **free native Python service in Singapore with no paid disk**. The service can sleep when idle; imported notices and runtime caches may reset on redeployment or instance replacement. The ten original notices are automatically restored.
 - Docker checks do not apply: Docker was explicitly excluded by the user.
 
 Local URL: **http://127.0.0.1:8000** (available while the local Python process is running).

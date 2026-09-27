@@ -181,13 +181,13 @@ Frontend tests use jsdom and mocked network responses. They verify user interact
 
 ## Native Render deployment — no Docker
 
-The included `render.yaml` creates one **native Python web service**, prebuilds React, downloads the local model during the build, and uses a 1 GB persistent disk for the index and imported notices. The service has a generated admin token, `/api/health` readiness and one Uvicorn worker. Render supplies the public HTTPS hostname.
+The included `render.yaml` creates one **free native Python web service in Singapore**, prebuilds React and downloads the local model during the build. The service has a generated admin token, `/api/health` readiness and one Uvicorn worker. Render supplies the public HTTPS hostname. No paid disk or service is provisioned.
 
-The configured `starter` service and persistent disk are **paid Render resources**. Review the displayed charges before creating them; no cloud resources have been provisioned by these files alone. If you select a free ephemeral service manually, imported collections and embedding caches will not persist across redeploys and available memory may be insufficient. The recommended configuration preserves data.
+This free demo can sleep after inactivity, so the first request may be slow. Imported collections and runtime embedding caches do not persist across redeploys or instance replacement; the original ten notices are seeded automatically. For durable imports, explicitly upgrade to a paid service, attach a persistent disk and set `INDEX_DIR` to a directory on that disk. The free configuration intentionally does not incur those charges.
 
 1. Create a GitHub repository and push this source tree, including `frontend/package-lock.json`, `backend/requirements.lock`, `render.yaml` and `data/`. Do not upload `.env`, `.venv`, `.tools`, caches or `node_modules`. `python -m scripts.package_source` produces a source-only ZIP if needed.
 2. Connect the repository in Render and choose **New → Blueprint**.
-3. Review the `find-that-notice` native Python service, disk and environment variables; apply the blueprint.
+3. Review the free `find-that-notice` native Python service and environment variables; apply the blueprint.
 4. Wait for build completion and `/api/health` to become ready. Startup automatically builds the index if absent. The model comes from the build cache, not your local computer.
 5. Open the service's `https://…onrender.com` URL. Run:
 
@@ -197,7 +197,7 @@ The configured `starter` service and persistent disk are **paid Render resources
 
 6. Verify the full notice dialog and revision panel visually on desktop and mobile. Record the live URL in `docs/VERIFICATION.md`.
 
-For manual Render setup choose **Python**, repository root, the build/start commands in `render.yaml`, and the documented environment variables and persistent disk. Do not use a Docker runtime. Keep a single worker; multiple workers would need coordinated index reloads after imports. Persistent-disk deployments can briefly stop serving during restarts; no zero-downtime claim is made.
+For manual Render setup choose **Python**, the **Free** plan, **Singapore**, repository root, the build/start commands in `render.yaml`, and the documented environment variables. Do not attach a paid disk or use a Docker runtime for this demo. Keep a single worker; multiple workers would need coordinated index reloads after imports.
 
 Public deployment requires access to the user's Git provider repository and Render account. **A live URL has not yet been provisioned or verified.** The local app and deployment configuration do not substitute for that acceptance check.
 
